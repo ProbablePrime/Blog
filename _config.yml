@@ -1,0 +1,50 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Probable Prime
+tagline:             'Systems Developer, Professional Code Monkey'
+description:         ''
+url:                 https://probableprime.co.uk
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              probableprime
+  url:               https://twitter.com/probableprime
+  email:             prime@ahref.co.uk
+
+gems: [jekyll/tagging]
+
+exclude: [BlogLayout,install.sh,Gemfile,out.log]
+
+# Custom vars
+version:             1.0.0
+
+#Tag Plugin vars
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+
+#ignored_tags:[]
+
+#disqus
+disqus_shortname: 'ahref-uk'
+
+social:
+- icon: fa-twitter
+  name: twitter
+  link: https://twitter.com/probableprime
+- icon: fa-linkedin
+  name: linkedin
+  link: https://www.linkedin.com/in/ahref
+- icon: fa-github
+  name: github
+  link: https://github.com/ProbablePrime
+- icon: fa-file-text
+  name: resume
+  link: https://github.com/ProbablePrime/resume/raw/master/build/resume.pdf
