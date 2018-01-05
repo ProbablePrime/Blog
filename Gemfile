@@ -8,6 +8,8 @@ gem "zip-zip"
 gem "RedCloth"
 gem "rubyzip"
 
-gem "jekyll-tagging"
-gem "jekyll-paginate"
+group :jekyll_plugins do
+  gem "jekyll-tagging"
+  gem "jekyll-paginate"
+end
 
