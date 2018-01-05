@@ -3,9 +3,11 @@ version: 0.1
 phases:
   install:
     commands:
-      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist
+      - gem install jekyll bundler
   build:
     commands:
+      - echo "Installing Deps"
+      - bundle install
       - echo "******** Building Jekyll site ********"
       - jekyll build
       - echo "******** Uploading to S3 ********"
