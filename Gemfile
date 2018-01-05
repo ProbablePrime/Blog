@@ -8,3 +8,6 @@ gem "zip-zip"
 gem "RedCloth"
 gem "rubyzip"
 
+gem "jekyll-tagging"
+gem "jekyll-paginate"
+
