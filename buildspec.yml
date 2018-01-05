@@ -4,12 +4,12 @@ phases:
   install:
     commands:
       - gem install jekyll bundler
+  prebuild:
+    commands:
+      - bundle install
   build:
     commands:
-      - echo "Installing Deps"
-      - bundle install
-      - bundle list
       - echo "******** Building Jekyll site ********"
-      - jekyll build
+      - bundle exec jekyll build
       - echo "******** Uploading to S3 ********"
       - aws s3 sync _site/ s3://probableprime.co.uk
