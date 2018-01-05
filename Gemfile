@@ -3,6 +3,7 @@ source "http://rubygems.org"
 
 # gem "rails"
 
+gem "jekyll"
 gem "git"
 gem "zip-zip"
 gem "RedCloth"
