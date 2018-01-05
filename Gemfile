@@ -7,6 +7,7 @@ gem "git"
 gem "zip-zip"
 gem "RedCloth"
 gem "rubyzip"
+gem "kramdown"
 
 group :jekyll_plugins do
   gem "jekyll-tagging"

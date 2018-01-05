@@ -8,6 +8,7 @@ phases:
     commands:
       - echo "Installing Deps"
       - bundle install
+      - bundle list
       - echo "******** Building Jekyll site ********"
       - jekyll build
       - echo "******** Uploading to S3 ********"
