@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - gem install jekyll bundler
-  prebuild:
+  pre_build:
     commands:
       - bundle install
   build:
