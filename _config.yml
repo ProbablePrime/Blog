@@ -21,7 +21,7 @@ plugins:
   - jekyll/tagging
   - jekyll-paginate
 
-exclude: [BlogLayout,install.sh,Gemfile,out.log]
+exclude: [BlogLayout,install.sh,Gemfile,out.log,buildspec.yml]
 
 # Custom vars
 version:             1.0.0
